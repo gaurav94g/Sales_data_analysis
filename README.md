@@ -185,9 +185,10 @@ The SQL scripts for these views are available in the `sales-analysis.sql` file i
 **Note:** Creating views is an elegant approach, provided the team has the necessary database permissions. If not, the next best approach is to move the SQL queries to Power BI.
 
 ### Data Cleaning and Transformation [Power Query Editor]
-1. Import `vw_customer`, `vw_product`, `vw_date`, and `vw_internet_sales` as `Dim_Customer`, `Dim_Product`, `Dim_Date
+1. Import `vw_customer`, `vw_product`, `vw_date`, and `vw_internet_sales` as `Dim_Customer`, `Dim_Product`, `Dim_Date`, and `Fact_InternetSales`, respectively.
 
-`, and `Fact_InternetSales`, respectively.
+<img src="https://github.com/gaurav94g/Sales_data_analysis/blob/main/Data%20Import.png">
+
 2. Import the `Budget` sheet from the provided Excel file.
 
 ### Data Modeling
